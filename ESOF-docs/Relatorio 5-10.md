@@ -17,7 +17,7 @@ Existe um tracker de problemas publico [na seguinte página](https://osgeo-org.a
 Para pequenas alterações ao código (um único ficheiro source code) pode-se recorrer a commits. Isto representa uma forma rápida para os responsáveis fazerem pequenas correções ao código, documentação e ao JavaDoc.  
 Para maiores contribuições (multiplos ficheiros source code e/ou novos ficheiros) é necessário que os utilizadores que pretendam fazer estas contribuições assinem o Code Contribution Licence.
  
-##(PAPÉIS NO GEOTOOLS)[http://docs.geotools.org/latest/developer/roles/index.html]
+##[PAPÉIS NO GEOTOOLS](http://docs.geotools.org/latest/developer/roles/index.html)
 No GeoTools existem vários cargos que os usuários poder possuir, são eles os “Comitters”, os Contribuidores, os Manutenção de Módulos e o Comité de Gestão do Projeto.
 Os utilizadores que façam constantemente contribuições para o GeoTools podem ser promovidos a “Comitters”, isto implica algumas vantagens em relação aos restantes users, como poder trabalhar nos seus próprios módulos e aplicar os próprios patches e pull requests depois de revistos pelos responsáveis. Todos as contribuições para alteração dos ficheiros source code ou documentação têm que ser revidos pelos responsáveis antes de se tornarem efetivos no código. Os “Comitters” têm algumas responsabilidades para com o projeto GeoTools, conforme mencionado na página oficial geotools.org.
 
