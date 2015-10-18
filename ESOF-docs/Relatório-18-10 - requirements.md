@@ -1,27 +1,18 @@
-# GeoTools
- 
-## Use Cases
-        Supports OGC Grid Coverage implementation ()
-        Coordinate reference system and transformation support
-        Symbology using OGC Styled Layer Descriptor (SLD) specification
-        Attribute and spatial filters using OGC Filter Encoding specification
-        Supports graphs and networks
-        Java Topology Suite (JTS) - with support for the OGC Simple Features Specification - used as the geometry model for vector features.
-        A stateless, low memory renderer, particularly useful in server-side environments
-        Powerful “schema assisted” parsing technology using XML Schema to bind to GML content
-        Interact with OGC web services with both Web Map Server and Web Feature Server support
-        Open plug-in system allowing you to teach the library additional formats
-        Plug-ins for the ImageIO-EXT project allowing GeoTools to read additional raster formats from GDAL
-       
-## Procedimento para adiconar novas funcionalidades (features)
-No GeoTools as novas funcionalidades são adicionadas ao projeto através de módulos.
-Os módulos só podem ser desenvolvidos pelos Module Maintainers.
-Os Module Maintainers são os contribuidores mais importantes, uma vez que desenvolvem novas funcionalidades para o GeoTools.
-Para criar um novo módulo, é necessário seguir os seguintes passos:
-	*Inicialmente é necessário mandar um e-mail aos responsáveis para adquirirem uma permissão para tal. 
-	*De seguida é necessário criar um página no Wiki onde se irá colocar a documentação acerca do módulo que está a ser desenvolvido. 
-	*E por fim assinar o Code Contribution License.
-Assim que o módulo estiver numa versão estábel, pode ser submetido para a build partilhada. O que significa que, assim que o módulo for adicionado à build partilhada, quando alguém compilar o novo módulo que terá que compilar todo o projeto do GeoTools.
-Idealmente deve-se trabalhar com alguém que possa confirmar que a build funciona com o setup do programador, e deve, se possível, testar com um repositório maven vazio, para garantir que outros utilizadores possam aceder a todas as dependências de que o novo módulo depende.
-Quando o programador sentir que o seu módulo está pronto, pode decidir declará-lo formalmente supported, momento esse em que o módulo pode ser transferido para o directório modules/plugin/ ou modules/extension/.
+﻿# GeoTools
 
+Development Requirements
+
+Para o Geotools funcionar são necessários dois programas em específico. Um deles é o Apache Maven (versão 3.2.1) que é uma ferramenta de compilação utilizada primariamente em projetos Java. O outro é Java 2 Software Developers Kit (Java 7) que é uma plataforma utilizada para desenvolver projetos com a linguagem Java.
+
+
+
+Elicitation
+	Tal como ocorre com o reportar de erros, os pedidos de novas funcionalidades do geotools é feito atravéz do Issue Tracker JIRA. É possivel encontrar especificamente apenas os pedidos de funcionalidades atravez da filtragem em New Feature, Improvement e Task e finalmente, marcar apenas problemas em estado aberto ‘Open’.
+	Em alternativa, há sempre a possibilidade de comunicar para uma das mailing lists do projecto, sendo que outrem poderá abrir uma Issue no tracker se a sugestão for relevante.
+
+Specification, Analysis
+	Qualquer pessoa pode fazer uma request e qualquer pessoa pode participar da discussão. O tracker tem uma secção de atividade que incorpora essa vertentes. 
+       Os pedidos devem 
+Validation
+	No final, todas as alterações devem ser feitas por pull request atravéz do github. Os próprios pull request tem as suas regras, incluindo referência cruzada com o issue no JIRA, test cases e. No JIRA é possivel encontrar quem é ou foi o responsável ‘Assignee ‘ pelo problema marcado.
+Dependendo da alteração, o grupo de utilizadores que tem a responsabilidade de a desenvolver ocorre de forma hierarquica  consoante o guia de contribuição ( Contributors < Commiters < Module Maintainers). Mas mesmo feito um Pull Request, não é garantido que o problema seja acrescentado a master até ser feita a sua validação. Quando o Module Maintainer sentir que o seu módulo está pronto, pode decidir declará-lo formalmente supported, momento esse em que o módulo é transferido para o directório modules/plugin/ ou modules/extension/.
