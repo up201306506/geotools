@@ -1,4 +1,14 @@
-﻿# GeoTools
+﻿# Requirements
+
+## Indice
+- [Requirements](#requirements)                                
+	- [Development Requirements](#system-requirements)
+	- [Features](#features)
+	- [Elicitation](#elicitation)
+	- [Specification and Analysis](#specification-and-analysis)
+	- [Validation](#validation)
+	- [Use cases](#use-cases)
+
 
 ##Development Requirements
 
@@ -14,7 +24,7 @@ Tal como ocorre com o reportar de erros, os pedidos de novas funcionalidades do 
 
 Em alternativa, há sempre a possibilidade de comunicar para [uma das mailing lists do projecto](http://geotools.org/getinvolved.html), sendo que outrem poderá abrir uma Issue no tracker se a sugestão for relevante.
 
-##Specification, Analysis
+##Specification and Analysis
 
 Qualquer pessoa pode fazer uma request e qualquer pessoa pode participar da discussão. Os pedidos devem  O tracker tem uma secção de atividade que incorpora essa vertentes.  
 
@@ -32,3 +42,5 @@ No final, todas as alterações devem ser feitas atravéz pull request [no githu
 Mas mesmo feito um Pull Request, não é garantido que o problema seja acrescentado a master até ser feita a sua validação. Quando o Module Maintainer sentir que o seu módulo está pronto, pode decidir declará-lo formalmente supported, momento esse em que o módulo é transferido para o directório modules/plugin/ ou modules/extension/.
 	
 <img src="./images/18-10-ModuleMaintainer.PNG" />
+
+##Use Cases
