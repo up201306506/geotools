@@ -2,7 +2,7 @@
 
 ##Development Requirements
 
-Para o Geotools funcionar são necessários dois programas em específico. Um deles é o [Apache Maven](http://maven.apache.org/download.html) (versão 3.2.1) que é uma ferramenta de compilação utilizada primariamente em projetos Java. O outro é [Java 2 Software Developers Kit](http://www.oracle.com/technetwork/java/javase/overview/index.html) (Java 7) que é a bblioteca da Oracle para desenvolver projetos com a linguagem Java.
+Para o Geotools funcionar são necessários dois programas em específico. Um deles é o [Apache Maven](http://maven.apache.org/download.html) (versão 3.2.1) que é uma ferramenta de compilação utilizada primariamente em projetos Java. O outro é [Java 2 Software Developers Kit](http://www.oracle.com/technetwork/java/javase/overview/index.html) (Java 7) que é a biblioteca da Oracle para desenvolver projetos com a linguagem Java.
 
 
 
