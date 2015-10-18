@@ -21,4 +21,4 @@ No final, todas as alterações devem ser feitas por pull request atravéz do gi
 
 Dependendo da alteração, o grupo de utilizadores que tem a responsabilidade de a desenvolver ocorre de forma hierarquica  consoante o guia de contribuição ( Contributors < Commiters < Module Maintainers). Mas mesmo feito um Pull Request, não é garantido que o problema seja acrescentado a master até ser feita a sua validação. Quando o Module Maintainer sentir que o seu módulo está pronto, pode decidir declará-lo formalmente supported, momento esse em que o módulo é transferido para o directório modules/plugin/ ou modules/extension/.
 	
-<img src="./images/18-10-ModuleMaintainer.png" />
+<img src="./images/18-10-ModuleMaintainer.PNG" />
