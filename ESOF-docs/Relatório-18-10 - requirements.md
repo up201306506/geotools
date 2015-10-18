@@ -11,11 +11,13 @@ Para o Geotools funcionar são necessários dois programas em específico. Um de
 ##Elicitation
 
 Tal como ocorre com o reportar de erros, os pedidos de novas funcionalidades do geotools é feito atravéz do [Issue Tracker JIRA](https://osgeo-org.atlassian.net/projects/GEOT/summary). É possivel encontrar especificamente apenas os pedidos de funcionalidades atravez da filtragem em [New Feature, Improvement e Task](https://osgeo-org.atlassian.net/browse/GEOT-5186?jql=project%20%3D%20GEOT%20AND%20issuetype%20in%20%28Improvement%2C%20%22New%20Feature%22%2C%20Task%29%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC) e finalmente, marcar apenas problemas em estado aberto ‘Open’.
+
 Em alternativa, há sempre a possibilidade de comunicar para [uma das mailing lists do projecto](http://geotools.org/getinvolved.html), sendo que outrem poderá abrir uma Issue no tracker se a sugestão for relevante.
 
 ##Specification, Analysis
 
 Qualquer pessoa pode fazer uma request e qualquer pessoa pode participar da discussão. O tracker tem uma secção de atividade que incorpora essa vertentes. 
+
 Os pedidos devem 
 
 ##Validation
