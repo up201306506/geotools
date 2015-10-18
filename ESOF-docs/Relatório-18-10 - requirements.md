@@ -18,11 +18,9 @@ Em alternativa, há sempre a possibilidade de comunicar para [uma das mailing li
 
 Qualquer pessoa pode fazer uma request e qualquer pessoa pode participar da discussão. Os pedidos devem  O tracker tem uma secção de atividade que incorpora essa vertentes.  
 
-<img src="./images/18-10-IssueActivityLog.PNG" />
+<img src="./images/IssueActivityLog.PNG" />
 
 Caso não existam conflictos, o problema pode ser aprovado o que normalmente involve alguém do Project Management Committee decidir um utilizador que se torna o Asignee da alteração, possivelmente um dos próprios ou alguém que se voluntarie nos comentários.
-
-(completar com descrição de um issue. Completar atravéz de Use Cases)
 
 
 ##Validation
