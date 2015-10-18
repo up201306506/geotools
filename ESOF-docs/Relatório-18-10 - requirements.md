@@ -4,8 +4,13 @@
 
 Para o Geotools funcionar são necessários dois programas em específico. Um deles é o [Apache Maven](http://maven.apache.org/download.html) (versão 3.2.1) que é uma ferramenta de compilação utilizada primariamente em projetos Java. O outro é [Java 2 Software Developers Kit](http://www.oracle.com/technetwork/java/javase/overview/index.html) (Java 7) que é a biblioteca da Oracle para desenvolver projetos com a linguagem Java.
 
+## Features
 
+Como o Geotools já é um projeto em desenvolvimento há algum tempo [e portanto já tem várias versões released](http://geotools.org/about.html), pelo que a maior parte dos requerimentos são melhoramentos ao código existente. Apesar disso, o programa tem sempre de seguir certos standards que constam da sua [página de features](http://docs.geotools.org/latest/userguide/geotools.html), e sem que o código establecido seja quebrado.
 
+(Onde é que se fala da wiki que o Paulo mencionou?)
+
+(Pomos aqui uma lista e use cases?)
 
 
 ##Elicitation
@@ -16,9 +21,9 @@ Em alternativa, há sempre a possibilidade de comunicar para [uma das mailing li
 
 ##Specification, Analysis
 
-Qualquer pessoa pode fazer uma request e qualquer pessoa pode participar da discussão. O tracker tem uma secção de atividade que incorpora essa vertentes. 
+Qualquer pessoa pode fazer uma request e qualquer pessoa pode participar da discussão em redor desses. O tracker tem uma secção de atividade que incorpora essa vertentes. 
 
-Os pedidos devem 
+Os pedidos devem (completar com descrição de um issue, e o papel dos administradores do JIRA em marcar prioridades)
 
 ##Validation
 No final, todas as alterações devem ser feitas atravéz pull request [no github](https://github.com/geotools/geotools/pulls). Os próprios pull request [tem as suas regras](http://docs.geotools.org/latest/developer/procedures/pull_requests.html), incluindo referência cruzada com o issue no JIRA e exemplos de casos de teste. No JIRA é possivel encontrar quem é ou foi o responsável ‘Assignee ‘ pelo problema marcado.
