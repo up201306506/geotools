@@ -1,20 +1,12 @@
-﻿ESOF
-4º Relatório
+# ESOF - 4º Relatório
+
 22/11/2015
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //FALTA FAZER
- Degree of Testability of the software program
-Topics: Discuss how 'testable' is the program. Discuss how to improve the testability of software components.
-
-The testability of software components (modules, classes) is determined by factors such as:
-- Controllability: The degree to which it is possible to control the state of the component under test (CUT) as required for testing.
-- Observability: The degree to which it is possible to observe (intermediate and final) test results.
-- Isolateability: The degree to which the component under test (CUT) can be tested in isolation.
-- Separation of concerns: The degree to which the component under test has a single, well defined responsibility.
-- Understandability: The degree to which the component under test is documented or self-explaining.
-- Heterogeneity: The degree to which the use of diverse technologies requires to use diverse test methods and tools in parallel.
-
-DEGREE OF TESTABILITY OF THE SOFTWARE PROGRAM
+ 
+## DEGREE OF TESTABILITY OF THE SOFTWARE PROGRAM
 
 A testabilidade de um software é determinado por factores como:
 - controllability;
@@ -25,9 +17,10 @@ A testabilidade de um software é determinado por factores como:
 - heterogeneity.
 
 //FALTA ACABAR
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-TEST STATISTICS
+## TEST STATISTICS
 
 1) Number of tests
 
@@ -62,8 +55,10 @@ Concluindo, a covertura de um software serve para expor o código que não foi t
 Pelos motivos acima referidos, não se pode concluir se a covertura exigida pelo GeoTools, é boa ou não. Pelos dados pode-se concluir que mais de metade do código
 do GeoTools não é abrangido pela suite de testes, o que significa que não se pode tirar qualquer conclusão sobre o código não testado. 
 
-BIBLIOGRAFIA
+## BIBLIOGRAFIA
 
 http://avandeursen.com/2013/11/19/test-coverage-not-for-managers/
+
 http://docs.geotools.org/latest/developer/procedures/supported.html
+
 http://www.ibm.com/developerworks/java/library/j-cq01316/
